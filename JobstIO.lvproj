@@ -1,8 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="18008000">
-	<Property Name="varPersistentID:{017C5AB1-4153-4C51-9265-F2146F502F5A}" Type="Ref">/My Computer/Utils/JobstIOSerialPackets.lvlib/Wrong CRC Packet</Property>
-	<Property Name="varPersistentID:{08D94823-B9FA-4AB0-BAD1-2A625FB47BD0}" Type="Ref">/My Computer/Utils/JobstIOSerialPackets.lvlib/Sync Packet</Property>
-	<Property Name="varPersistentID:{B557BD79-42AD-47E5-8D17-C18DDE054AD9}" Type="Ref">/My Computer/Utils/JobstIOSerialPackets.lvlib/Init Packet</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
