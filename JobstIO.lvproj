@@ -16,6 +16,9 @@
 		<Item Name="Packets" Type="Folder" URL="../Packets">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="SetMotor" Type="Folder" URL="../SetMotor">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Utils" Type="Folder" URL="../Utils">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
