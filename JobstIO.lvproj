@@ -1,8 +1,8 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="18008000">
-	<Property Name="varPersistentID:{281C2158-3ADA-4E5B-ADEE-DADABBC6585C}" Type="Ref">/My Computer/JobstIOSerialPackets.lvlib/Init Packet</Property>
-	<Property Name="varPersistentID:{4A0891EC-31F6-4B59-A451-610ADAD7B575}" Type="Ref">/My Computer/JobstIOSerialPackets.lvlib/Wrong CRC Packet</Property>
-	<Property Name="varPersistentID:{898B6637-5659-4FCE-A7AA-3ACF31F83965}" Type="Ref">/My Computer/JobstIOSerialPackets.lvlib/Sync Packet</Property>
+	<Property Name="varPersistentID:{017C5AB1-4153-4C51-9265-F2146F502F5A}" Type="Ref">/My Computer/Utils/JobstIOSerialPackets.lvlib/Wrong CRC Packet</Property>
+	<Property Name="varPersistentID:{08D94823-B9FA-4AB0-BAD1-2A625FB47BD0}" Type="Ref">/My Computer/Utils/JobstIOSerialPackets.lvlib/Sync Packet</Property>
+	<Property Name="varPersistentID:{B557BD79-42AD-47E5-8D17-C18DDE054AD9}" Type="Ref">/My Computer/Utils/JobstIOSerialPackets.lvlib/Init Packet</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -13,11 +13,15 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="CalculateCRC.vi" Type="VI" URL="../CalculateCRC.vi"/>
-		<Item Name="GetSensorNames.vi" Type="VI" URL="../GetSensorNames.vi"/>
-		<Item Name="JobstIOSerialPackets.lvlib" Type="Library" URL="../JobstIOSerialPackets.lvlib"/>
-		<Item Name="SensorHEX2Name.vi" Type="VI" URL="../SensorHEX2Name.vi"/>
-		<Item Name="Simple Serial.vi" Type="VI" URL="../Simple Serial.vi"/>
+		<Item Name="GetSensorsData" Type="Folder" URL="../GetSensorsData">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="Packets" Type="Folder" URL="../Packets">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="Utils" Type="Folder" URL="../Utils">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
